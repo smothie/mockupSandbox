@@ -1,0 +1,28 @@
+{
+  "name": "mockupSandbox",
+  "version": "0.0.1",
+  "authors": [
+    "Marco Antonio Almeida Silva <marco.antonio.almeida.silva@gmail.com>"
+  ],
+  "description": "mockupSandbox",
+  "main": "index.html",
+  "keywords": [
+    "tribefire",
+    "mockup",
+    "sandbox",
+    "bower",
+    "rest"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.1"
+  }
+}

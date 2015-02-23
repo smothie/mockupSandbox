@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PantherCartridge</title>
+
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/fancytree/skin-win8/ui.fancytree.min.css" rel="stylesheet" type="text/css">
+
+<link href="css/pantherCartridge.css" rel="stylesheet">
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+</head>
+<body>
+	<div class="container">
+		<div id="tf_header">
+			<a href="$appId"><img src="img/panther_logo.png" id="tf_logo"
+				alt="logo" width="185"></a>
+			<ul id="tf_nav" style="line-height: 0px">
+				<li id="tf_nav_text"><a class="topBannerAnchor"
+					href="/tribefire-control-center" target="tfControlCenter">Control
+						Center</a></li>
+				<li id="tf_nav_text"><a class="topBannerAnchor"
+					href="/tribefire-explorer" target="tfExplorer">Explorer</a></li>
+				<li id="tf_nav_text"><a class="topBannerAnchor"
+					href="/tribefire-services" target="tfServices">Services</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="nav-wrapper">
+		<div id="nav" class="navbar navbar-default container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed"
+					data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+					aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+			</div>
+			<div id="navbar" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-expanded="false">Repository
+							<span class="caret"></span>
+					</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Trigger full scan</a></li>
+						</ul></li>
+					<li class="dropdown"><a href="#" class="dropdown-toggle"
+						data-toggle="dropdown" role="button" aria-expanded="false">SVN
+							<span class="caret"></span>
+					</a>
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#">Trigger full scan</a></li>
+							<li><a href="#">Trigger incremental scan</a></li>
+						</ul></li>
+				</ul>
+			</div>
+		</div>
+		<!-- navbar -->
+	</div>
+	<div class="container">
+		<ul id="myTab" class="nav nav-tabs navbar-right">
+			<li class="active"><a href="#browse" data-toggle="tab">Browse</a>
+			</li>
+			<li><a href="#search" data-toggle="tab">Search</a></li>
+			<li><a href="#status" data-toggle="tab">Status</a></li>
+		</ul>
+		<div class="clearfix"></div>
+		<div id="myTabContent" class="tab-content">
+			<div class="tab-pane fade in active" id="browse">
+				<div id="browserTree"></div>
+				<div id="browserDetail"><div id="nodeDetails"></div></div>
+
+			</div>
+			<div class="tab-pane fade" id="search">
+				<h2>Search for an artifact</h2>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+				nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+				erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+				et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+				sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+				accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+				no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+				dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+				dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+				elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+				magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+				justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+				takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+				At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+				kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+				amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna
+				aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+				duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+				sanctus est Lorem ipsum dolor sit amet.
+			</div>
+			<div class="tab-pane fade" id="status">
+				<h2>Repository status</h2>
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+				nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+				erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+				et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur
+				sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+				et dolore magna aliquyam erat, sed diam voluptua. At vero eos et
+				accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+				no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+				dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+				tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+				voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+				Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+				dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+				elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+				magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+				justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+				takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor
+				sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+				invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+				At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+				kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+				amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+				diam nonumy eirmod tempor invidunt ut labore et dolore magna
+				aliquyam erat, sed diam voluptua. At vero eos et accusam et justo
+				duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata
+				sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet,
+				consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt
+				ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+				eos et accusam et justo duo dolores et ea rebum. Stet clita kasd
+				gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+				Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+				nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+				erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+				et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est
+				Lorem ipsum dolor sit amet.
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-default navbar-fixed-bottom footer"
+		role="navigation">All rights reserved by © Braintribe IT-Technologies GmbH 2015</nav>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+		
+	<script src="js/fancytree/jquery.fancytree-all.min.js" type="text/javascript"></script>	
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/pantherCartridge.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
